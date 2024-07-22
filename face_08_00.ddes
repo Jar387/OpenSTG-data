@@ -1,0 +1,81 @@
+entry entry0 {
+    version: 2,
+    name: "data/face/st07/face_07_01.png",
+    format: 1,
+    width: 512,
+    height: 512,
+    colorKey: 0x00000000,
+    memoryPriority: 0,
+    hasData: 1,
+    THTXSize: 1048576,
+    THTXFormat: 1,
+    THTXWidth: 512,
+    THTXHeight: 512,
+    THTXZero: 0,
+    sprites: {
+        sprite0: { x: 0, y: 0, w: 256, h: 512 },
+        sprite1: { x: 256, y: 0, w: 256, h: 512 }
+    }
+}
+
+
+entry entry1 {
+    version: 2,
+    name: "data/face/st08/face_08_00.png",
+    format: 1,
+    width: 512,
+    height: 512,
+    colorKey: 0x00000000,
+    memoryPriority: 0,
+    hasData: 1,
+    THTXSize: 1048576,
+    THTXFormat: 1,
+    THTXWidth: 512,
+    THTXHeight: 512,
+    THTXZero: 0,
+    sprites: {
+        sprite0: { x: 0, y: 0, w: 512, h: 512, id: 0 }
+    }
+}
+
+
+entry entry2 {
+    version: 2,
+    name: "data/face/st08/face_08_01.png",
+    format: 1,
+    width: 512,
+    height: 512,
+    colorKey: 0x00000000,
+    memoryPriority: 0,
+    hasData: 1,
+    THTXSize: 1048576,
+    THTXFormat: 1,
+    THTXWidth: 512,
+    THTXHeight: 512,
+    THTXZero: 0,
+    sprites: {
+        sprite0: { x: 0, y: 0, w: 512, h: 512, id: 0 }
+    }
+}
+
+
+entry entry3 {
+    version: 2,
+    name: "data/face/st08/face_08_02.png",
+    format: 1,
+    width: 512,
+    height: 512,
+    colorKey: 0x00000000,
+    memoryPriority: 0,
+    hasData: 1,
+    THTXSize: 1048576,
+    THTXFormat: 1,
+    THTXWidth: 512,
+    THTXHeight: 512,
+    THTXZero: 0,
+    sprites: {
+        sprite0: { x: 0, y: 0, w: 512, h: 512, id: 0 }
+    }
+}
+
+

@@ -1,0 +1,710 @@
+entry entry0 {
+    version: 2,
+    name: "data/ascii/ascii.png",
+    format: 5,
+    width: 256,
+    height: 256,
+    colorKey: 0x00000000,
+    memoryPriority: 11,
+    hasData: 1,
+    THTXSize: 131072,
+    THTXFormat: 5,
+    THTXWidth: 256,
+    THTXHeight: 256,
+    THTXZero: 0,
+    sprites: {
+        sprite0: { x: 0, y: 0, w: 8, h: 8 },
+        sprite1: { x: 8, y: 0, w: 8, h: 8 },
+        sprite2: { x: 16, y: 0, w: 8, h: 8 },
+        sprite3: { x: 24, y: 0, w: 8, h: 8 },
+        sprite4: { x: 32, y: 0, w: 8, h: 8 },
+        sprite5: { x: 40, y: 0, w: 8, h: 8 },
+        sprite6: { x: 48, y: 0, w: 8, h: 8 },
+        sprite7: { x: 56, y: 0, w: 8, h: 8 },
+        sprite8: { x: 64, y: 0, w: 8, h: 8 },
+        sprite9: { x: 72, y: 0, w: 8, h: 8 },
+        sprite10: { x: 80, y: 0, w: 48, h: 8 },
+        sprite11: { x: 128, y: 0, w: 8, h: 8 },
+        sprite12: { x: 136, y: 0, w: 8, h: 8 },
+        sprite13: { x: 144, y: 0, w: 8, h: 8 },
+        sprite14: { x: 152, y: 0, w: 8, h: 8 },
+        sprite15: { x: 160, y: 0, w: 8, h: 8 },
+        sprite16: { x: 168, y: 0, w: 8, h: 8 },
+        sprite17: { x: 176, y: 0, w: 8, h: 8 },
+        sprite18: { x: 184, y: 0, w: 8, h: 8 },
+        sprite19: { x: 192, y: 0, w: 8, h: 8 },
+        sprite20: { x: 200, y: 0, w: 8, h: 8 },
+        sprite21: { x: 128, y: 8, w: 8, h: 8 },
+        sprite22: { x: 136, y: 8, w: 8, h: 8 },
+        sprite23: { x: 144, y: 8, w: 8, h: 8 },
+        sprite24: { x: 152, y: 8, w: 8, h: 8 },
+        sprite25: { x: 160, y: 8, w: 8, h: 8 },
+        sprite26: { x: 168, y: 8, w: 8, h: 8 },
+        sprite27: { x: 176, y: 8, w: 8, h: 8 },
+        sprite28: { x: 184, y: 8, w: 8, h: 8 },
+        sprite29: { x: 192, y: 8, w: 8, h: 8 },
+        sprite30: { x: 200, y: 8, w: 8, h: 8 },
+        sprite31: { x: 0, y: 32, w: 16, h: 16 },
+        sprite32: { x: 16, y: 32, w: 16, h: 16 },
+        sprite33: { x: 32, y: 32, w: 16, h: 16 },
+        sprite34: { x: 48, y: 32, w: 16, h: 16 },
+        sprite35: { x: 64, y: 32, w: 16, h: 16 },
+        sprite36: { x: 80, y: 32, w: 16, h: 16 },
+        sprite37: { x: 96, y: 32, w: 16, h: 16 },
+        sprite38: { x: 112, y: 32, w: 16, h: 16 },
+        sprite39: { x: 128, y: 32, w: 16, h: 16 },
+        sprite40: { x: 144, y: 32, w: 16, h: 16 },
+        sprite41: { x: 160, y: 32, w: 16, h: 16 },
+        sprite42: { x: 176, y: 32, w: 16, h: 16 },
+        sprite43: { x: 192, y: 32, w: 16, h: 16 },
+        sprite44: { x: 208, y: 32, w: 16, h: 16 },
+        sprite45: { x: 224, y: 32, w: 16, h: 16 },
+        sprite46: { x: 240, y: 32, w: 16, h: 16 },
+        sprite47: { x: 0, y: 48, w: 16, h: 16 },
+        sprite48: { x: 16, y: 48, w: 16, h: 16 },
+        sprite49: { x: 32, y: 48, w: 16, h: 16 },
+        sprite50: { x: 48, y: 48, w: 16, h: 16 },
+        sprite51: { x: 64, y: 48, w: 16, h: 16 },
+        sprite52: { x: 80, y: 48, w: 16, h: 16 },
+        sprite53: { x: 96, y: 48, w: 16, h: 16 },
+        sprite54: { x: 112, y: 48, w: 16, h: 16 },
+        sprite55: { x: 128, y: 48, w: 16, h: 16 },
+        sprite56: { x: 144, y: 48, w: 16, h: 16 },
+        sprite57: { x: 160, y: 48, w: 16, h: 16 },
+        sprite58: { x: 176, y: 48, w: 16, h: 16 },
+        sprite59: { x: 192, y: 48, w: 16, h: 16 },
+        sprite60: { x: 208, y: 48, w: 16, h: 16 },
+        sprite61: { x: 224, y: 48, w: 16, h: 16 },
+        sprite62: { x: 240, y: 48, w: 16, h: 16 },
+        sprite63: { x: 0, y: 64, w: 16, h: 16 },
+        sprite64: { x: 16, y: 64, w: 16, h: 16 },
+        sprite65: { x: 32, y: 64, w: 16, h: 16 },
+        sprite66: { x: 48, y: 64, w: 16, h: 16 },
+        sprite67: { x: 64, y: 64, w: 16, h: 16 },
+        sprite68: { x: 80, y: 64, w: 16, h: 16 },
+        sprite69: { x: 96, y: 64, w: 16, h: 16 },
+        sprite70: { x: 112, y: 64, w: 16, h: 16 },
+        sprite71: { x: 128, y: 64, w: 16, h: 16 },
+        sprite72: { x: 144, y: 64, w: 16, h: 16 },
+        sprite73: { x: 160, y: 64, w: 16, h: 16 },
+        sprite74: { x: 176, y: 64, w: 16, h: 16 },
+        sprite75: { x: 192, y: 64, w: 16, h: 16 },
+        sprite76: { x: 208, y: 64, w: 16, h: 16 },
+        sprite77: { x: 224, y: 64, w: 16, h: 16 },
+        sprite78: { x: 240, y: 64, w: 16, h: 16 },
+        sprite79: { x: 0, y: 80, w: 16, h: 16 },
+        sprite80: { x: 16, y: 80, w: 16, h: 16 },
+        sprite81: { x: 32, y: 80, w: 16, h: 16 },
+        sprite82: { x: 48, y: 80, w: 16, h: 16 },
+        sprite83: { x: 64, y: 80, w: 16, h: 16 },
+        sprite84: { x: 80, y: 80, w: 16, h: 16 },
+        sprite85: { x: 96, y: 80, w: 16, h: 16 },
+        sprite86: { x: 112, y: 80, w: 16, h: 16 },
+        sprite87: { x: 128, y: 80, w: 16, h: 16 },
+        sprite88: { x: 144, y: 80, w: 16, h: 16 },
+        sprite89: { x: 160, y: 80, w: 16, h: 16 },
+        sprite90: { x: 176, y: 80, w: 16, h: 16 },
+        sprite91: { x: 192, y: 80, w: 16, h: 16 },
+        sprite92: { x: 208, y: 80, w: 16, h: 16 },
+        sprite93: { x: 224, y: 80, w: 16, h: 16 },
+        sprite94: { x: 240, y: 80, w: 16, h: 16 },
+        sprite95: { x: 0, y: 96, w: 16, h: 16 },
+        sprite96: { x: 16, y: 96, w: 16, h: 16 },
+        sprite97: { x: 32, y: 96, w: 16, h: 16 },
+        sprite98: { x: 48, y: 96, w: 16, h: 16 },
+        sprite99: { x: 64, y: 96, w: 16, h: 16 },
+        sprite100: { x: 80, y: 96, w: 16, h: 16 },
+        sprite101: { x: 96, y: 96, w: 16, h: 16 },
+        sprite102: { x: 112, y: 96, w: 16, h: 16 },
+        sprite103: { x: 128, y: 96, w: 16, h: 16 },
+        sprite104: { x: 144, y: 96, w: 16, h: 16 },
+        sprite105: { x: 160, y: 96, w: 16, h: 16 },
+        sprite106: { x: 176, y: 96, w: 16, h: 16 },
+        sprite107: { x: 192, y: 96, w: 16, h: 16 },
+        sprite108: { x: 208, y: 96, w: 16, h: 16 },
+        sprite109: { x: 224, y: 96, w: 16, h: 16 },
+        sprite110: { x: 240, y: 96, w: 16, h: 16 },
+        sprite111: { x: 0, y: 112, w: 16, h: 16 },
+        sprite112: { x: 16, y: 112, w: 16, h: 16 },
+        sprite113: { x: 32, y: 112, w: 16, h: 16 },
+        sprite114: { x: 48, y: 112, w: 16, h: 16 },
+        sprite115: { x: 64, y: 112, w: 16, h: 16 },
+        sprite116: { x: 80, y: 112, w: 16, h: 16 },
+        sprite117: { x: 96, y: 112, w: 16, h: 16 },
+        sprite118: { x: 112, y: 112, w: 16, h: 16 },
+        sprite119: { x: 128, y: 112, w: 16, h: 16 },
+        sprite120: { x: 144, y: 112, w: 16, h: 16 },
+        sprite121: { x: 160, y: 112, w: 16, h: 16 },
+        sprite122: { x: 176, y: 112, w: 16, h: 16 },
+        sprite123: { x: 192, y: 112, w: 16, h: 16 },
+        sprite124: { x: 208, y: 112, w: 16, h: 16 },
+        sprite125: { x: 224, y: 112, w: 16, h: 16 },
+        sprite126: { x: 240, y: 112, w: 16, h: 16 },
+        sprite127: { x: 224, y: 16, w: 16, h: 16 },
+        sprite128: { x: 240, y: 16, w: 16, h: 16 },
+        sprite129: { x: 0, y: 128, w: 256, h: 32 },
+        sprite130: { x: 0, y: 160, w: 256, h: 32 },
+        sprite131: { x: 0, y: 192, w: 144, h: 16 },
+        sprite132: { x: 0, y: 208, w: 8, h: 12 },
+        sprite133: { x: 8, y: 208, w: 8, h: 12 },
+        sprite134: { x: 16, y: 208, w: 8, h: 12 },
+        sprite135: { x: 24, y: 208, w: 8, h: 12 },
+        sprite136: { x: 32, y: 208, w: 8, h: 12 },
+        sprite137: { x: 40, y: 208, w: 8, h: 12 },
+        sprite138: { x: 48, y: 208, w: 8, h: 12 },
+        sprite139: { x: 56, y: 208, w: 8, h: 12 },
+        sprite140: { x: 64, y: 208, w: 8, h: 12 },
+        sprite141: { x: 72, y: 208, w: 8, h: 12 },
+        sprite142: { x: 0, y: 224, w: 96, h: 16 },
+        sprite143: { x: 96, y: 224, w: 48, h: 16 },
+        sprite144: { x: 0, y: 240, w: 48, h: 16 },
+        sprite145: { x: 144, y: 224, w: 112, h: 32 }
+    }
+}
+
+script script0 {
+    ins_3(sprite129);
+    ins_30(1);
+    ins_23();
+    ins_21(1);
+    ins_8(0);
+    ins_34(30, 0, 255);
+    ins_6(312.0f, 312.0f, 0.0f);
++100: // 100
+    ins_32(30, 4, 312.0f, 40.0f, 0.0f);
++30: // 130
+    ins_20();
+    ins_21(2);
+    ins_32(30, 4, 544.0f, 40.0f, 0.0f);
++30: // 160
+    ins_23();
+    ins_1();
+}
+
+script script1 {
+    ins_3(sprite130);
+    ins_30(1);
+    ins_23();
+    ins_21(1);
+    ins_8(0);
+    ins_34(30, 0, 255);
+    ins_6(152.0f, 344.0f, 0.0f);
++100: // 100
+    ins_32(30, 4, 152.0f, 440.0f, 0.0f);
++30: // 130
+    ins_20();
+    ins_21(2);
+    ins_32(30, 4, -160.0f, 440.0f, 0.0f);
++30: // 160
+    ins_23();
+    ins_1();
+}
+
+script script2 {
+    ins_3(sprite131);
+    ins_30(1);
+    ins_23();
+    ins_21(1);
+    ins_8(0);
+    ins_34(30, 0, 255);
+    ins_6(320.0f, 344.0f, 0.0f);
++30: // 30
+    ins_32(30, 0, 320.0f, 324.0f, 0.0f);
++70: // 100
+    ins_32(30, 4, 320.0f, 52.0f, 0.0f);
++30: // 130
+    ins_20();
+    ins_21(2);
+    ins_34(30, 0, 0);
++30: // 160
+    ins_23();
+    ins_1();
+}
+
+script script3 {
+    ins_3(sprite132);
+    ins_30(1);
+    ins_2();
+}
+
+script script4 {
+    ins_3(sprite142);
+    ins_30(1);
+    ins_22();
+    ins_21(-1);
+    ins_23();
+    ins_21(1);
+    ins_34(15, 0, 255);
+    ins_6(-96.0f, 449.0f, 0.0f);
+    ins_32(15, 0, 32.0f, 449.0f, 0.0f);
++15: // 15
+    ins_20();
+    ins_21(2);
+    ins_34(15, 0, 64);
++15: // 30
+    ins_20();
+    ins_21(3);
+    ins_34(15, 0, 255);
++15: // 45
+    ins_20();
+}
+
+script script5 {
+    ins_3(sprite143);
+    ins_30(1);
+offset24:
+    ins_36(30, 4, 1.2f, 1.2f);
++30: // 30
+    ins_36(30, 1, 0.8f, 0.8f);
++30: // 60
+    ins_4(offset24, 0);
+}
+
+script script6 {
+    ins_3(sprite144);
+    ins_30(1);
+    ins_8(0);
+    ins_21(-1);
+    ins_23();
+    ins_21(1);
+    ins_34(30, 0, 255);
++30: // 30
+    ins_20();
+    ins_21(2);
+    ins_34(30, 0, 0);
++30: // 60
+    ins_23();
+}
+
+script script7 {
+    ins_3(sprite145);
+    ins_30(1);
+    ins_8(0);
+    ins_6(224.0f, 240.0f, 0.0f);
+offset56:
+    ins_34(120, 0, 255);
++120: // 120
+    ins_34(60, 0, 64);
++60: // 180
+    ins_4(offset56, 0);
+}
+
+
+entry entry1 {
+    version: 2,
+    name: "data/ascii/asciis.png",
+    format: 5,
+    width: 256,
+    height: 256,
+    colorKey: 0xff000000,
+    memoryPriority: 0,
+    hasData: 1,
+    THTXSize: 131072,
+    THTXFormat: 5,
+    THTXWidth: 256,
+    THTXHeight: 256,
+    THTXZero: 0,
+    sprites: {
+        sprite0: { x: 0, y: 0, w: 8, h: 8, id: 0 },
+        sprite1: { x: 8, y: 0, w: 8, h: 8 },
+        sprite2: { x: 16, y: 0, w: 8, h: 8 },
+        sprite3: { x: 24, y: 0, w: 8, h: 8 },
+        sprite4: { x: 32, y: 0, w: 8, h: 8 },
+        sprite5: { x: 40, y: 0, w: 8, h: 8 },
+        sprite6: { x: 48, y: 0, w: 8, h: 8 },
+        sprite7: { x: 56, y: 0, w: 8, h: 8 },
+        sprite8: { x: 64, y: 0, w: 8, h: 8 },
+        sprite9: { x: 72, y: 0, w: 8, h: 8 },
+        sprite10: { x: 0, y: 32, w: 16, h: 16 },
+        sprite11: { x: 16, y: 32, w: 16, h: 16 },
+        sprite12: { x: 32, y: 32, w: 16, h: 16 },
+        sprite13: { x: 48, y: 32, w: 16, h: 16 },
+        sprite14: { x: 64, y: 32, w: 16, h: 16 },
+        sprite15: { x: 80, y: 32, w: 16, h: 16 },
+        sprite16: { x: 96, y: 32, w: 16, h: 16 },
+        sprite17: { x: 112, y: 32, w: 16, h: 16 },
+        sprite18: { x: 128, y: 32, w: 16, h: 16 },
+        sprite19: { x: 144, y: 32, w: 16, h: 16 },
+        sprite20: { x: 160, y: 32, w: 16, h: 16 },
+        sprite21: { x: 176, y: 32, w: 16, h: 16 },
+        sprite22: { x: 192, y: 32, w: 16, h: 16 },
+        sprite23: { x: 208, y: 32, w: 16, h: 16 },
+        sprite24: { x: 224, y: 32, w: 16, h: 16 },
+        sprite25: { x: 240, y: 32, w: 16, h: 16 },
+        sprite26: { x: 0, y: 48, w: 16, h: 16 },
+        sprite27: { x: 16, y: 48, w: 16, h: 16 },
+        sprite28: { x: 32, y: 48, w: 16, h: 16 },
+        sprite29: { x: 48, y: 48, w: 16, h: 16 },
+        sprite30: { x: 64, y: 48, w: 16, h: 16 },
+        sprite31: { x: 80, y: 48, w: 16, h: 16 },
+        sprite32: { x: 96, y: 48, w: 16, h: 16 },
+        sprite33: { x: 112, y: 48, w: 16, h: 16 },
+        sprite34: { x: 128, y: 48, w: 16, h: 16 },
+        sprite35: { x: 144, y: 48, w: 16, h: 16 },
+        sprite36: { x: 160, y: 48, w: 16, h: 16 },
+        sprite37: { x: 176, y: 48, w: 16, h: 16 },
+        sprite38: { x: 192, y: 48, w: 16, h: 16 },
+        sprite39: { x: 208, y: 48, w: 16, h: 16 },
+        sprite40: { x: 224, y: 48, w: 16, h: 16 },
+        sprite41: { x: 240, y: 48, w: 16, h: 16 },
+        sprite42: { x: 0, y: 64, w: 16, h: 16 },
+        sprite43: { x: 16, y: 64, w: 16, h: 16 },
+        sprite44: { x: 32, y: 64, w: 16, h: 16 },
+        sprite45: { x: 48, y: 64, w: 16, h: 16 },
+        sprite46: { x: 64, y: 64, w: 16, h: 16 },
+        sprite47: { x: 80, y: 64, w: 16, h: 16 },
+        sprite48: { x: 96, y: 64, w: 16, h: 16 },
+        sprite49: { x: 112, y: 64, w: 16, h: 16 },
+        sprite50: { x: 128, y: 64, w: 16, h: 16 },
+        sprite51: { x: 144, y: 64, w: 16, h: 16 },
+        sprite52: { x: 160, y: 64, w: 16, h: 16 },
+        sprite53: { x: 176, y: 64, w: 16, h: 16 },
+        sprite54: { x: 192, y: 64, w: 16, h: 16 },
+        sprite55: { x: 208, y: 64, w: 16, h: 16 },
+        sprite56: { x: 224, y: 64, w: 16, h: 16 },
+        sprite57: { x: 240, y: 64, w: 16, h: 16 },
+        sprite58: { x: 0, y: 80, w: 16, h: 16 },
+        sprite59: { x: 16, y: 80, w: 16, h: 16 },
+        sprite60: { x: 32, y: 80, w: 16, h: 16 },
+        sprite61: { x: 48, y: 80, w: 16, h: 16 },
+        sprite62: { x: 64, y: 80, w: 16, h: 16 },
+        sprite63: { x: 80, y: 80, w: 16, h: 16 },
+        sprite64: { x: 96, y: 80, w: 16, h: 16 },
+        sprite65: { x: 112, y: 80, w: 16, h: 16 },
+        sprite66: { x: 128, y: 80, w: 16, h: 16 },
+        sprite67: { x: 144, y: 80, w: 16, h: 16 },
+        sprite68: { x: 160, y: 80, w: 16, h: 16 },
+        sprite69: { x: 176, y: 80, w: 16, h: 16 },
+        sprite70: { x: 192, y: 80, w: 16, h: 16 },
+        sprite71: { x: 208, y: 80, w: 16, h: 16 },
+        sprite72: { x: 224, y: 80, w: 16, h: 16 },
+        sprite73: { x: 240, y: 80, w: 16, h: 16 },
+        sprite74: { x: 0, y: 96, w: 16, h: 16 },
+        sprite75: { x: 16, y: 96, w: 16, h: 16 },
+        sprite76: { x: 32, y: 96, w: 16, h: 16 },
+        sprite77: { x: 48, y: 96, w: 16, h: 16 },
+        sprite78: { x: 64, y: 96, w: 16, h: 16 },
+        sprite79: { x: 80, y: 96, w: 16, h: 16 },
+        sprite80: { x: 96, y: 96, w: 16, h: 16 },
+        sprite81: { x: 112, y: 96, w: 16, h: 16 },
+        sprite82: { x: 128, y: 96, w: 16, h: 16 },
+        sprite83: { x: 144, y: 96, w: 16, h: 16 },
+        sprite84: { x: 160, y: 96, w: 16, h: 16 },
+        sprite85: { x: 176, y: 96, w: 16, h: 16 },
+        sprite86: { x: 192, y: 96, w: 16, h: 16 },
+        sprite87: { x: 208, y: 96, w: 16, h: 16 },
+        sprite88: { x: 224, y: 96, w: 16, h: 16 },
+        sprite89: { x: 240, y: 96, w: 16, h: 16 },
+        sprite90: { x: 0, y: 112, w: 16, h: 16 },
+        sprite91: { x: 16, y: 112, w: 16, h: 16 },
+        sprite92: { x: 32, y: 112, w: 16, h: 16 },
+        sprite93: { x: 48, y: 112, w: 16, h: 16 },
+        sprite94: { x: 64, y: 112, w: 16, h: 16 },
+        sprite95: { x: 80, y: 112, w: 16, h: 16 },
+        sprite96: { x: 96, y: 112, w: 16, h: 16 },
+        sprite97: { x: 112, y: 112, w: 16, h: 16 },
+        sprite98: { x: 128, y: 112, w: 16, h: 16 },
+        sprite99: { x: 144, y: 112, w: 16, h: 16 },
+        sprite100: { x: 160, y: 112, w: 16, h: 16 },
+        sprite101: { x: 176, y: 112, w: 16, h: 16 },
+        sprite102: { x: 192, y: 112, w: 16, h: 16 },
+        sprite103: { x: 208, y: 112, w: 16, h: 16 },
+        sprite104: { x: 224, y: 112, w: 16, h: 16 },
+        sprite105: { x: 240, y: 112, w: 16, h: 16 },
+        sprite106: { x: 224, y: 16, w: 16, h: 16 },
+        sprite107: { x: 240, y: 16, w: 16, h: 16 }
+    }
+}
+
+
+entry entry2 {
+    version: 2,
+    name: "data/ascii/pause.png",
+    format: 5,
+    width: 256,
+    height: 256,
+    colorKey: 0x00000000,
+    memoryPriority: 0,
+    hasData: 1,
+    THTXSize: 131072,
+    THTXFormat: 5,
+    THTXWidth: 256,
+    THTXHeight: 256,
+    THTXZero: 0,
+    sprites: {
+        sprite0: { x: 0, y: 0, w: 112, h: 32, id: 0 },
+        sprite1: { x: 0, y: 32, w: 160, h: 32 },
+        sprite2: { x: 0, y: 64, w: 224, h: 32 },
+        sprite3: { x: 0, y: 96, w: 192, h: 32 },
+        sprite4: { x: 160, y: 32, w: 96, h: 32 },
+        sprite5: { x: 0, y: 128, w: 224, h: 32 },
+        sprite6: { x: 0, y: 160, w: 112, h: 32 },
+        sprite7: { x: 112, y: 160, w: 64, h: 32 },
+        sprite8: { x: 176, y: 160, w: 80, h: 32 },
+        sprite9: { x: 0, y: 192, w: 32, h: 32 },
+        sprite10: { x: 32, y: 192, w: 32, h: 32 },
+        sprite11: { x: 64, y: 192, w: 32, h: 32 },
+        sprite12: { x: 96, y: 192, w: 32, h: 32 },
+        sprite13: { x: 128, y: 192, w: 32, h: 32 },
+        sprite14: { x: 0, y: 224, w: 160, h: 32 },
+        sprite15: { x: 192, y: 0, w: 64, h: 16 },
+        sprite16: { x: 192, y: 16, w: 64, h: 16 },
+        sprite17: { x: 128, y: 0, w: 64, h: 16 },
+        sprite18: { x: 128, y: 16, w: 64, h: 16 },
+        sprite19: { x: 192, y: 192, w: 64, h: 16 },
+        sprite20: { x: 192, y: 208, w: 64, h: 16 },
+        sprite21: { x: 192, y: 224, w: 64, h: 16 },
+        sprite22: { x: 192, y: 240, w: 64, h: 16 }
+    }
+}
+
+script 0 script8 {
+    ins_3(sprite0);
+    ins_6(224.0f, 192.0f, 0.0f);
+    ins_8(0);
+    ins_23();
+    ins_21(1);
+    ins_34(20, 0, 255);
+    ins_32(20, 0, 224.0f, 192.0f, 0.0f);
++20: // 20
+    ins_20();
+    ins_21(2);
+    ins_34(20, 0, 0);
+    ins_32(20, 0, 224.0f, 192.0f, 0.0f);
++20: // 40
+    ins_23();
+}
+
+script script9 {
+    ins_3(sprite1);
+    ins_6(256.0f, 256.0f, 0.0f);
+    ins_8(0);
+    ins_23();
+    ins_21(1);
+    ins_34(20, 0, 255);
+    ins_32(20, 0, 224.0f, 256.0f, 0.0f);
++20: // 20
+    ins_20();
+    ins_21(2);
+    ins_34(20, 0, 0);
+    ins_32(20, 0, 256.0f, 256.0f, 0.0f);
++20: // 40
+    ins_23();
+}
+
+script script10 {
+    ins_3(sprite2);
+    ins_6(192.0f, 292.0f, 0.0f);
+    ins_8(0);
+    ins_23();
+    ins_21(1);
+    ins_34(20, 0, 255);
+    ins_32(20, 0, 224.0f, 292.0f, 0.0f);
++20: // 20
+    ins_20();
+    ins_21(2);
+    ins_34(20, 0, 0);
+    ins_32(20, 0, 192.0f, 292.0f, 0.0f);
++20: // 40
+    ins_23();
+}
+
+script script11 {
+    ins_3(sprite3);
+    ins_6(240.0f, 328.0f, 0.0f);
+    ins_8(0);
+    ins_23();
+    ins_21(1);
+    ins_34(20, 0, 255);
+    ins_32(20, 0, 224.0f, 328.0f, 0.0f);
++20: // 20
+    ins_20();
+    ins_21(2);
+    ins_34(20, 0, 0);
+    ins_32(20, 0, 240.0f, 328.0f, 0.0f);
++20: // 40
+    ins_23();
+}
+
+script script12 {
+    ins_3(sprite4);
+    ins_6(224.0f, 192.0f, 0.0f);
+    ins_8(0);
+    ins_23();
+    ins_21(1);
+    ins_34(20, 0, 255);
+    ins_32(20, 0, 224.0f, 192.0f, 0.0f);
++20: // 20
+    ins_20();
+    ins_21(2);
+    ins_34(20, 0, 0);
+    ins_32(20, 0, 224.0f, 192.0f, 0.0f);
++20: // 40
+    ins_23();
+}
+
+script script13 {
+    ins_3(sprite7);
+    ins_6(224.0f, 256.0f, 0.0f);
+    ins_8(0);
+    ins_23();
+    ins_21(1);
+    ins_34(20, 0, 255);
+    ins_32(20, 0, 224.0f, 256.0f, 0.0f);
++20: // 20
+    ins_20();
+    ins_21(2);
+    ins_34(20, 0, 0);
+    ins_32(20, 0, 224.0f, 256.0f, 0.0f);
++20: // 40
+    ins_23();
+}
+
+script script14 {
+    ins_3(sprite8);
+    ins_6(224.0f, 292.0f, 0.0f);
+    ins_8(0);
+    ins_23();
+    ins_21(1);
+    ins_34(20, 0, 255);
+    ins_32(20, 0, 224.0f, 292.0f, 0.0f);
++20: // 20
+    ins_20();
+    ins_21(2);
+    ins_34(20, 0, 0);
+    ins_32(20, 0, 224.0f, 292.0f, 0.0f);
++20: // 40
+    ins_23();
+}
+
+script script15 {
+    ins_3(sprite15);
+    ins_22();
+    ins_6(344.0f, 444.0f, 0.0f);
+    ins_8(0);
+    ins_21(1);
+    ins_34(20, 0, 255);
++20: // 20
+    ins_20();
+    ins_21(2);
+    ins_34(20, 0, 0);
++20: // 40
+    ins_23();
+}
+
+script script16 {
+    ins_3(sprite22);
+    ins_22();
+    ins_6(344.0f, 428.0f, 0.0f);
+    ins_8(0);
+    ins_21(1);
+    ins_34(20, 0, 255);
++20: // 20
+    ins_20();
+    ins_21(2);
+    ins_34(20, 0, 0);
++20: // 40
+    ins_23();
+}
+
+script script17 {
+    ins_3(sprite21);
+    ins_22();
+    ins_6(344.0f, 412.0f, 0.0f);
+    ins_8(0);
+    ins_21(1);
+    ins_34(20, 0, 255);
++20: // 20
+    ins_20();
+    ins_21(2);
+    ins_34(20, 0, 0);
++20: // 40
+    ins_23();
+}
+
+script script18 {
+    ins_3(sprite5);
+    ins_6(224.0f, 192.0f, 0.0f);
+    ins_8(0);
+    ins_23();
+    ins_21(1);
+    ins_34(20, 0, 255);
+    ins_32(20, 0, 224.0f, 192.0f, 0.0f);
++20: // 20
+    ins_20();
+    ins_21(2);
+    ins_34(20, 0, 0);
+    ins_32(20, 0, 224.0f, 192.0f, 0.0f);
++20: // 40
+    ins_23();
+}
+
+script script19 {
+    ins_3(sprite6);
+    ins_6(224.0f, 224.0f, 0.0f);
+    ins_8(0);
+    ins_23();
+    ins_21(1);
+    ins_34(20, 0, 255);
+    ins_32(20, 0, 224.0f, 224.0f, 0.0f);
++20: // 20
+    ins_20();
+    ins_21(2);
+    ins_34(20, 0, 0);
+    ins_32(20, 0, 224.0f, 224.0f, 0.0f);
++20: // 40
+    ins_23();
+}
+
+script script20 {
+    ins_3(sprite7);
+    ins_6(224.0f, 256.0f, 0.0f);
+    ins_8(0);
+    ins_23();
+    ins_21(1);
+    ins_34(20, 0, 255);
+    ins_32(20, 0, 224.0f, 256.0f, 0.0f);
++20: // 20
+    ins_20();
+    ins_21(2);
+    ins_34(20, 0, 0);
+    ins_32(20, 0, 224.0f, 256.0f, 0.0f);
++20: // 40
+    ins_23();
+}
+
+script script21 {
+    ins_3(sprite8);
+    ins_6(224.0f, 292.0f, 0.0f);
+    ins_8(0);
+    ins_23();
+    ins_21(1);
+    ins_34(20, 0, 255);
+    ins_32(20, 0, 224.0f, 292.0f, 0.0f);
++20: // 20
+    ins_20();
+    ins_21(2);
+    ins_34(20, 0, 0);
+    ins_32(20, 0, 224.0f, 292.0f, 0.0f);
++20: // 40
+    ins_23();
+}
+
+script script22 {
+    ins_3(sprite9);
+    ins_6(229.0f, 224.0f, 0.0f);
+    ins_8(0);
+    ins_23();
+    ins_21(1);
+    ins_34(20, 0, 255);
+    ins_32(20, 0, 229.0f, 224.0f, 0.0f);
++20: // 20
+    ins_20();
+    ins_21(2);
+    ins_34(20, 0, 0);
+    ins_32(20, 0, 229.0f, 224.0f, 0.0f);
++20: // 40
+    ins_23();
+}
+
+

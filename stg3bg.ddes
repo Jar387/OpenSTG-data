@@ -1,0 +1,99 @@
+entry entry0 {
+    version: 2,
+    name: "data/stg1bg/stg3bg.png",
+    format: 1,
+    width: 512,
+    height: 512,
+    colorKey: 0x00000000,
+    memoryPriority: 11,
+    hasData: 1,
+    THTXSize: 1048576,
+    THTXFormat: 1,
+    THTXWidth: 512,
+    THTXHeight: 512,
+    THTXZero: 0,
+    sprites: {
+        sprite0: { x: 0, y: 0, w: 256, h: 128 },
+        sprite1: { x: 0, y: 128, w: 256, h: 128 },
+        sprite2: { x: 0, y: 256, w: 256, h: 128 },
+        sprite3: { x: 0, y: 384, w: 256, h: 128 },
+        sprite4: { x: 257, y: 1, w: 126, h: 126 },
+        sprite5: { x: 257, y: 257, w: 254, h: 254 }
+    }
+}
+
+script script0 {
+    ins_3(sprite0);
+    ins_31(1);
+    ins_22();
++400: // 400
+    ins_8(255);
+    ins_34(320, 0, 0);
++320: // 720
+    ins_34(60, 0, 255);
++60: // 780
+    ins_2();
+}
+
+script script1 {
+    ins_3(sprite1);
+    ins_31(1);
+    ins_22();
++400: // 400
+    ins_8(255);
+    ins_34(320, 0, 0);
++320: // 720
+    ins_34(60, 0, 255);
++60: // 780
+    ins_2();
+}
+
+script script2 {
+    ins_3(sprite2);
+    ins_31(1);
+    ins_22();
++400: // 400
+    ins_8(255);
+    ins_34(320, 0, 0);
++320: // 720
+    ins_34(60, 0, 255);
++60: // 780
+    ins_2();
+}
+
+script script3 {
+    ins_3(sprite3);
+    ins_31(1);
+    ins_22();
++400: // 400
+    ins_8(255);
+    ins_34(320, 0, 0);
++320: // 720
+    ins_34(60, 0, 255);
++60: // 780
+    ins_2();
+}
+
+script script4 {
+    ins_3(sprite4);
+    ins_31(1);
+    ins_8(0);
+    ins_34(240, 0, 255);
+    ins_12(0.0f, 0.0f, -1.5707964f);
++30000: // 30000
+    ins_2();
+}
+
+script script5 {
+    ins_3(sprite5);
+    ins_31(1);
+    ins_30(1);
+    ins_22();
+    ins_8(0);
++700: // 700
+    ins_34(240, 0, 255);
++250: // 950
+    ins_2();
+}
+
+

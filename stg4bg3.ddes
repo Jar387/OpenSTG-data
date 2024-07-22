@@ -1,0 +1,32 @@
+entry entry0 {
+    version: 2,
+    name: "data/stg1bg/stg4bg3.png",
+    format: 1,
+    width: 256,
+    height: 256,
+    colorKey: 0x00000000,
+    memoryPriority: 11,
+    hasData: 1,
+    THTXSize: 262144,
+    THTXFormat: 1,
+    THTXWidth: 256,
+    THTXHeight: 256,
+    THTXZero: 0,
+    sprites: {
+        sprite0: { x: 1, y: 1, w: 254, h: 254 }
+    }
+}
+
+script script0 {
+    ins_3(sprite0);
+    ins_31(1);
+    ins_22();
+    ins_8(0);
+    ins_25(2);
++7250: // 7250
+    ins_34(400, 0, 255);
++10000: // 17250
+    ins_2();
+}
+
+

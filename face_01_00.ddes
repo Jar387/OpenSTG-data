@@ -1,0 +1,24 @@
+entry entry0 {
+    version: 2,
+    name: "data/face/st01/face_01_00.png",
+    format: 1,
+    width: 512,
+    height: 512,
+    colorKey: 0x00000000,
+    memoryPriority: 0,
+    hasData: 1,
+    THTXSize: 1048576,
+    THTXFormat: 1,
+    THTXWidth: 512,
+    THTXHeight: 512,
+    THTXZero: 0,
+    sprites: {
+        sprite0: { x: 1, y: 1, w: 126, h: 510 },
+        sprite1: { x: 129, y: 1, w: 126, h: 510 },
+        sprite2: { x: 257, y: 1, w: 126, h: 510 },
+        sprite3: { x: 385, y: 1, w: 126, h: 510 },
+        sprite4: { x: 433, y: 0, w: 78, h: 512 }
+    }
+}
+
+

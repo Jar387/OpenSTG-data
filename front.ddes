@@ -1,0 +1,227 @@
+entry entry0 {
+    version: 2,
+    name: "data/front/front.png",
+    format: 1,
+    width: 256,
+    height: 256,
+    colorKey: 0x00000000,
+    memoryPriority: 0,
+    hasData: 1,
+    THTXSize: 262144,
+    THTXFormat: 1,
+    THTXWidth: 256,
+    THTXHeight: 256,
+    THTXZero: 0,
+    sprites: {
+        sprite0: { x: 128, y: 0, w: 128, h: 256 },
+        sprite1: { x: 0, y: 0, w: 128, h: 80 },
+        sprite2: { x: 0, y: 80, w: 64, h: 16 },
+        sprite3: { x: 0, y: 96, w: 64, h: 16 },
+        sprite4: { x: 0, y: 112, w: 64, h: 16 },
+        sprite5: { x: 0, y: 128, w: 64, h: 16 },
+        sprite6: { x: 0, y: 144, w: 64, h: 16 },
+        sprite7: { x: 0, y: 160, w: 64, h: 16 },
+        sprite8: { x: 0, y: 176, w: 64, h: 16 },
+        sprite9: { x: 0, y: 192, w: 128, h: 16 },
+        sprite10: { x: 64, y: 80, w: 16, h: 16 },
+        sprite11: { x: 80, y: 80, w: 16, h: 16 },
+        sprite12: { x: 0, y: 224, w: 32, h: 32 },
+        sprite13: { x: 0, y: 240, w: 128, h: 16 }
+    }
+}
+
+script script0 {
+    ins_3(sprite0);
+    ins_22();
+    ins_30(1);
+    ins_8(0);
+    ins_15(255, 120);
+    ins_6(512.0f, 208.0f, 0.0f);
+    ins_17(480.0f, 208.0f, 0.0f, 120);
++120: // 120
+    ins_2();
+}
+
+script script1 {
+    ins_3(sprite1);
+    ins_22();
+    ins_30(1);
+    ins_8(0);
+    ins_15(255, 120);
+    ins_6(384.0f, 336.0f, 0.0f);
+    ins_17(448.0f, 336.0f, 0.0f, 120);
++120: // 120
+    ins_2();
+}
+
+script script2 {
+    ins_3(sprite2);
+    ins_22();
+    ins_30(1);
+    ins_8(0);
+    ins_6(416.0f, 48.0f, 0.0f);
+    ins_15(255, 16);
+    ins_32(60, 0, 432.0f, 48.0f, 0.0f);
++60: // 60
+    ins_2();
+}
+
+script script3 {
+    ins_3(sprite3);
+    ins_22();
+    ins_30(1);
+    ins_8(0);
+    ins_6(448.0f, 64.0f, 0.0f);
++8: // 8
+    ins_15(255, 16);
+    ins_32(60, 0, 432.0f, 64.0f, 0.0f);
++60: // 68
+    ins_2();
+}
+
+script script4 {
+    ins_3(sprite4);
+    ins_22();
+    ins_30(1);
+    ins_8(0);
+    ins_6(432.0f, 112.0f, 0.0f);
++16: // 16
+    ins_15(255, 16);
+    ins_32(60, 0, 432.0f, 96.0f, 0.0f);
++60: // 76
+    ins_2();
+}
+
+script script5 {
+    ins_3(sprite5);
+    ins_22();
+    ins_30(1);
+    ins_8(0);
+    ins_6(464.0f, 112.0f, 0.0f);
++24: // 24
+    ins_15(255, 16);
+    ins_32(60, 0, 432.0f, 112.0f, 0.0f);
++60: // 84
+    ins_2();
+}
+
+script script6 {
+    ins_3(sprite6);
+    ins_22();
+    ins_30(1);
+    ins_8(0);
+    ins_6(424.0f, 144.0f, 0.0f);
++32: // 32
+    ins_15(255, 16);
+    ins_32(60, 0, 432.0f, 144.0f, 0.0f);
++60: // 92
+    ins_2();
+}
+
+script script7 {
+    ins_3(sprite7);
+    ins_22();
+    ins_30(1);
+    ins_8(0);
+    ins_6(432.0f, 144.0f, 0.0f);
++40: // 40
+    ins_15(255, 16);
+    ins_32(60, 0, 432.0f, 160.0f, 0.0f);
++60: // 100
+    ins_2();
+}
+
+script script8 {
+    ins_3(sprite8);
+    ins_22();
+    ins_30(1);
+    ins_8(0);
+    ins_6(448.0f, 176.0f, 0.0f);
++48: // 48
+    ins_15(255, 16);
+    ins_32(60, 0, 432.0f, 176.0f, 0.0f);
++60: // 108
+    ins_2();
+}
+
+script script9 {
+    ins_3(sprite10);
+    ins_22();
+    ins_2();
+}
+
+script script10 {
+    ins_3(sprite11);
+    ins_22();
+    ins_2();
+}
+
+script script11 {
+    ins_3(sprite9);
+    ins_22();
+    ins_30(1);
+    ins_8(0);
+    ins_6(80.0f, 26.0f, 0.0f);
+    ins_23();
+    ins_21(1);
+    ins_15(255, 16);
+    ins_32(30, 0, 32.0f, 26.0f, 0.0f);
++30: // 30
+    ins_20();
+    ins_21(-1);
+    ins_15(0, 30);
+    ins_32(30, 0, 80.0f, 26.0f, 0.0f);
++30: // 60
+    ins_23();
+    ins_1();
+}
+
+script script12 {
+    ins_3(sprite12);
+    ins_22();
++200: // 200
+    ins_2();
+}
+
+script script13 {
+    ins_3(sprite13);
+    ins_22();
+    ins_2();
+}
+
+
+entry entry1 {
+    version: 2,
+    name: "data/front/ename.png",
+    format: 1,
+    width: 128,
+    height: 256,
+    colorKey: 0x00000000,
+    memoryPriority: 0,
+    hasData: 1,
+    THTXSize: 131072,
+    THTXFormat: 1,
+    THTXWidth: 128,
+    THTXHeight: 256,
+    THTXZero: 0,
+    sprites: {
+        sprite0: { x: 0, y: 0, w: 128, h: 16, id: 0 },
+        sprite1: { x: 0, y: 16, w: 128, h: 16 },
+        sprite2: { x: 0, y: 32, w: 128, h: 16 },
+        sprite3: { x: 0, y: 48, w: 128, h: 16 },
+        sprite4: { x: 0, y: 64, w: 128, h: 16 },
+        sprite5: { x: 0, y: 80, w: 128, h: 16 },
+        sprite6: { x: 0, y: 96, w: 128, h: 16 },
+        sprite7: { x: 0, y: 112, w: 128, h: 16 },
+        sprite8: { x: 0, y: 128, w: 128, h: 16 },
+        sprite9: { x: 0, y: 144, w: 128, h: 16 },
+        sprite10: { x: 0, y: 160, w: 128, h: 16 },
+        sprite11: { x: 0, y: 176, w: 128, h: 16 },
+        sprite12: { x: 0, y: 192, w: 128, h: 16 },
+        sprite13: { x: 0, y: 208, w: 128, h: 16 },
+        sprite14: { x: 0, y: 224, w: 128, h: 16 },
+        sprite15: { x: 0, y: 240, w: 128, h: 16 }
+    }
+}
+
+

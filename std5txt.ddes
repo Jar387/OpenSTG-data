@@ -1,0 +1,92 @@
+entry entry0 {
+    version: 2,
+    name: "data/text/std5txt.png",
+    format: 5,
+    width: 512,
+    height: 256,
+    colorKey: 0x00000000,
+    memoryPriority: 0,
+    hasData: 1,
+    THTXSize: 262144,
+    THTXFormat: 5,
+    THTXWidth: 512,
+    THTXHeight: 256,
+    THTXZero: 0,
+    sprites: {
+        sprite0: { x: 0, y: 0, w: 256, h: 48 },
+        sprite1: { x: 0, y: 48, w: 96, h: 32 },
+        sprite2: { x: 256, y: 0, w: 256, h: 48 },
+        sprite3: { x: 0, y: 80, w: 384, h: 24 },
+        sprite4: { x: 0, y: 104, w: 384, h: 24 },
+        sprite5: { x: 0, y: 128, w: 128, h: 128 }
+    }
+}
+
+script script0 {
+    ins_3(sprite5);
+    ins_6(256.0f, 288.0f, 0.0f);
+    ins_30(1);
+    ins_8(0);
++200: // 200
+    ins_15(255, 140);
+    ins_32(200, 1, 256.0f, 288.0f, 0.0f);
++340: // 540
+    ins_15(0, 140);
++140: // 680
+    ins_1();
+}
+
+script script1 {
+    ins_3(sprite0);
+    ins_12(0.0f, 0.0f, 1.5707964f);
+    ins_6(175.5f, 223.5f, 0.0f);
+    ins_8(0);
++370: // 370
+    ins_15(255, 160);
++200: // 570
+    ins_15(0, 140);
++140: // 710
+    ins_1();
+}
+
+script script2 {
+    ins_3(sprite1);
+    ins_6(128.0f, 48.0f, 0.0f);
+    ins_8(0);
++110: // 110
+    ins_15(255, 60);
+    ins_32(120, 0, 128.0f, 160.0f, 0.0f);
++400: // 510
+    ins_15(0, 60);
++60: // 570
+    ins_1();
+}
+
+script script3 {
+    ins_3(sprite2);
+    ins_6(368.0f, 288.0f, 0.0f);
+    ins_8(0);
++140: // 140
+    ins_15(255, 60);
+    ins_32(120, 0, 256.0f, 288.0f, 0.0f);
++400: // 540
+    ins_15(0, 60);
++60: // 600
+    ins_1();
+}
+
+script script4 {
+    ins_3(sprite3);
+    ins_12(0.0f, 0.0f, 1.5707964f);
+    ins_6(403.5f, 623.5f, 0.0f);
+    ins_8(0);
++200: // 200
+    ins_15(255, 60);
+    ins_32(120, 4, 403.5f, 239.5f, 0.0f);
++200: // 400
+    ins_15(0, 60);
++60: // 460
+    ins_1();
+}
+
+
