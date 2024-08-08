@@ -1,0 +1,26 @@
+entry entry0 {
+    version: 0,
+    name: "data/eff00/eff03.png",
+    format: 3,
+    width: 256,
+    height: 256,
+    colorKey: 0x00000000,
+    hasData: 0,
+    sprites: {
+        sprite0: { x: 0, y: 0, w: 256, h: 256 }
+    }
+}
+
+script script0 {
+    ins_1(sprite0);
+    ins_2(2.304886f, 2.304886f);
+    ins_17(224.0f, 240.0f, 0.5f);
+    ins_3(0);
+    ins_12(224, 60);
+    ins_10(0.0f, 0.0f, 0.007853982f);
++10000: // 10000
+offset72:
+    ins_5(offset72);
+}
+
+

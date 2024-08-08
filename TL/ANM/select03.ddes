@@ -1,0 +1,46 @@
+entry entry0 {
+    version: 0,
+    name: "data/title/select03.png",
+    name2: "data/title/select03_a.png",
+    format: 5,
+    width: 256,
+    height: 256,
+    colorKey: 0x00000000,
+    hasData: 0,
+    sprites: {
+        sprite0: { x: 0, y: 0, w: 256, h: 64 },
+        sprite1: { x: 0, y: 64, w: 256, h: 64 }
+    }
+}
+
+script script0 {
+    ins_1(sprite0);
+    ins_17(192.0f, -64.0f, 0.0f);
+    ins_23();
+    ins_24();
+    ins_22(7);
+    ins_19(192.0f, 32.0f, 0.0f, 30);
++30: // 30
+    ins_21();
+    ins_22(-1);
+    ins_19(192.0f, -64.0f, 0.0f, 30);
++30: // 60
+    ins_24();
+}
+
+script script1 {
+    ins_1(sprite1);
+    ins_17(360.0f, -64.0f, 0.0f);
+    ins_23();
+    ins_24();
+    ins_22(13);
+    ins_19(360.0f, 112.0f, 0.0f, 30);
++30: // 30
+    ins_21();
+    ins_22(-1);
+    ins_19(360.0f, -64.0f, 0.0f, 30);
++30: // 60
+    ins_24();
+}
+
+

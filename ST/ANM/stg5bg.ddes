@@ -1,0 +1,46 @@
+entry entry0 {
+    version: 0,
+    name: "data/stg1bg/stg5bg.png",
+    name2: "data/stg1bg/stg5bg_a.png",
+    format: 1,
+    width: 256,
+    height: 256,
+    colorKey: 0x00000000,
+    hasData: 0,
+    sprites: {
+        sprite0: { x: 17, y: 17, w: 32, h: 32 },
+        sprite1: { x: 96, y: 1, w: 64, h: 62 },
+        sprite2: { x: 168, y: 1, w: 64, h: 47 }
+    }
+}
+
+script script0 {
+    ins_1(sprite0);
+    ins_23();
+    ins_15();
+}
+
+script script1 {
+    ins_1(sprite1);
+    ins_23();
+    ins_3(0);
+    ins_13();
++400: // 400
+    ins_12(192, 200);
++200: // 600
+    ins_15();
+}
+
+script script2 {
+    ins_1(sprite2);
+    ins_9(0.0f, 0.0f, -1.5707964f);
+    ins_15();
+}
+
+script script3 {
+    ins_1(sprite2);
+    ins_9(0.0f, 0.0f, 1.5707964f);
+    ins_15();
+}
+
+

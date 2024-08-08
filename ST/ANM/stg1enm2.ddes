@@ -1,0 +1,114 @@
+entry entry0 {
+    version: 0,
+    name: "data/stgenm/stg1enm2.png",
+    name2: "data/stgenm/stg1enm2_a.png",
+    format: 5,
+    width: 256,
+    height: 256,
+    colorKey: 0x00000000,
+    hasData: 0,
+    sprites: {
+        sprite128: { x: 0, y: 0, w: 32, h: 48, id: 128 },
+        sprite129: { x: 32, y: 0, w: 32, h: 48 },
+        sprite130: { x: 64, y: 0, w: 32, h: 48 },
+        sprite131: { x: 96, y: 0, w: 32, h: 48 },
+        sprite132: { x: 128, y: 0, w: 32, h: 48 },
+        sprite133: { x: 160, y: 0, w: 32, h: 48 },
+        sprite134: { x: 192, y: 0, w: 32, h: 48 },
+        sprite135: { x: 224, y: 0, w: 32, h: 48 },
+        sprite136: { x: 256, y: 48, w: 32, h: 48 },
+        sprite137: { x: 288, y: 48, w: 32, h: 48 },
+        sprite138: { x: 320, y: 48, w: 32, h: 48 }
+    }
+}
+
+script 128 script0 {
+    ins_1(sprite132);
+    ins_15();
+}
+
+script script1 {
+    ins_7();
+    ins_1(sprite138);
++2: // 2
+    ins_1(sprite137);
++2: // 4
+    ins_1(sprite136);
++2: // 6
+    ins_1(sprite134);
+    ins_7();
+    ins_15();
+}
+
+script script2 {
+    ins_1(sprite138);
++2: // 2
+    ins_1(sprite137);
++2: // 4
+    ins_1(sprite136);
++2: // 6
+    ins_1(sprite133);
+    ins_15();
+}
+
+script script3 {
+    ins_7();
+    ins_1(sprite136);
++2: // 2
+    ins_1(sprite137);
++2: // 4
+    ins_1(sprite138);
++2: // 6
+    ins_1(sprite132);
+    ins_7();
+    ins_15();
+}
+
+script script4 {
+    ins_1(sprite136);
++2: // 2
+    ins_1(sprite137);
++2: // 4
+    ins_1(sprite138);
++2: // 6
+    ins_1(sprite132);
+    ins_15();
+}
+
+script script5 {
+    ins_1(sprite132);
++4: // 4
+    ins_1(sprite131);
++4: // 8
+    ins_1(sprite130);
++4: // 12
+    ins_1(sprite129);
++4: // 16
+    ins_1(sprite128);
+    ins_15();
+}
+
+script script6 {
+    ins_1(sprite128);
++4: // 4
+    ins_1(sprite129);
++4: // 8
+    ins_1(sprite130);
++4: // 12
+    ins_1(sprite131);
++4: // 16
+    ins_1(sprite132);
+    ins_15();
+}
+
+script script7 {
+    ins_1(sprite128);
+    ins_15();
+}
+
+script script8 {
+    ins_1(sprite135);
+    ins_15();
+}
+
+

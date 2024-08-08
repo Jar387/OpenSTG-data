@@ -1,0 +1,81 @@
+entry entry0 {
+    version: 0,
+    name: "data/stgenm/stg6enm2.png",
+    name2: "data/stgenm/stg6enm2_a.png",
+    format: 5,
+    width: 256,
+    height: 256,
+    colorKey: 0x00000000,
+    hasData: 0,
+    sprites: {
+        sprite160: { x: 0, y: 0, w: 64, h: 80, id: 160 },
+        sprite161: { x: 64, y: 0, w: 64, h: 80 },
+        sprite162: { x: 128, y: 0, w: 64, h: 80 },
+        sprite163: { x: 0, y: 80, w: 64, h: 32 },
+        sprite164: { x: 64, y: 80, w: 64, h: 32 },
+        sprite165: { x: 128, y: 80, w: 64, h: 32 },
+        sprite166: { x: 192, y: 80, w: 64, h: 32 }
+    }
+}
+
+script 160 script0 {
+    ins_1(sprite160);
+    ins_15();
+}
+
+script script1 {
+    ins_7();
+    ins_1(sprite160);
++4: // 4
+    ins_1(sprite161);
++4: // 8
+offset20:
+    ins_1(sprite162);
++10000: // 10008
+    ins_5(offset20);
+}
+
+script script2 {
+    ins_1(sprite160);
++4: // 4
+    ins_1(sprite161);
++4: // 8
+offset16:
+    ins_1(sprite162);
++10000: // 10008
+    ins_5(offset16);
+}
+
+script script3 {
+    ins_7();
+    ins_1(sprite162);
++4: // 4
+    ins_1(sprite161);
++4: // 8
+    ins_1(sprite160);
+    ins_15();
+}
+
+script script4 {
+    ins_1(sprite162);
++4: // 4
+    ins_1(sprite161);
++4: // 8
+    ins_1(sprite160);
+    ins_15();
+}
+
+script script5 {
+offset0:
+    ins_1(sprite163);
++4: // 4
+    ins_1(sprite164);
++4: // 8
+    ins_1(sprite165);
++4: // 12
+    ins_1(sprite166);
++4: // 16
+    ins_5(offset0);
+}
+
+

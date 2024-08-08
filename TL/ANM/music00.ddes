@@ -1,0 +1,28 @@
+entry entry0 {
+    version: 0,
+    name: "data/result/music00.png",
+    name2: "data/result/music00_a.png",
+    format: 5,
+    width: 256,
+    height: 256,
+    colorKey: 0x00000000,
+    hasData: 0,
+    sprites: {
+        sprite0: { x: 0, y: 0, w: 256, h: 64 }
+    }
+}
+
+script script0 {
+    ins_1(sprite0);
+    ins_23();
+    ins_17(24.0f, -64.0f, 0.0f);
+    ins_19(24.0f, 24.0f, 0.0f, 30);
++30: // 30
+    ins_21();
+    ins_22(-1);
+    ins_19(24.0f, -64.0f, 0.0f, 30);
++30: // 60
+    ins_24();
+}
+
+

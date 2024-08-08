@@ -1,0 +1,29 @@
+entry entry0 {
+    version: 0,
+    name: "@",
+    format: 5,
+    width: 256,
+    height: 256,
+    colorKey: 0x00000000,
+    hasData: 0,
+    sprites: {
+        sprite0: { x: 0, y: 0, w: 256, h: 16 },
+        sprite1: { x: 0, y: 16, w: 256, h: 16 },
+        sprite2: { x: 0, y: 32, w: 256, h: 16 },
+        sprite3: { x: 0, y: 48, w: 256, h: 16 },
+        sprite4: { x: 0, y: 64, w: 256, h: 16 },
+        sprite5: { x: 0, y: 80, w: 256, h: 16 },
+        sprite6: { x: 0, y: 96, w: 256, h: 16 },
+        sprite7: { x: 0, y: 112, w: 256, h: 16 },
+        sprite8: { x: 0, y: 128, w: 256, h: 16 },
+        sprite9: { x: 0, y: 144, w: 256, h: 16 },
+        sprite10: { x: 0, y: 160, w: 256, h: 16 },
+        sprite11: { x: 0, y: 176, w: 256, h: 16 },
+        sprite12: { x: 0, y: 192, w: 256, h: 16 },
+        sprite13: { x: 0, y: 208, w: 256, h: 16 },
+        sprite14: { x: 0, y: 224, w: 256, h: 16 },
+        sprite15: { x: 0, y: 240, w: 256, h: 16 }
+    }
+}
+
+

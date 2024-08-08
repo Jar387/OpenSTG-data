@@ -1,0 +1,32 @@
+entry entry0 {
+    version: 0,
+    name: "data/result/result03.png",
+    name2: "data/result/result03_a.png",
+    format: 5,
+    width: 256,
+    height: 256,
+    colorKey: 0x00000000,
+    hasData: 0,
+    sprites: {
+        sprite0: { x: 0, y: 0, w: 256, h: 256 }
+    }
+}
+
+script script0 {
+    ins_1(sprite0);
+    ins_23();
+    ins_3(0);
+    ins_24();
+    ins_22(16);
+    ins_17(48.0f, 96.0f, 0.0f);
+    ins_3(0);
+    ins_12(255, 30);
++30: // 30
+    ins_21();
+    ins_22(-1);
+    ins_12(0, 30);
++30: // 60
+    ins_24();
+}
+
+

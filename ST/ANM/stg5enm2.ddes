@@ -1,0 +1,169 @@
+entry entry0 {
+    version: 0,
+    name: "data/stgenm/stg5enm2.png",
+    name2: "data/stgenm/stg5enm2_a.png",
+    format: 5,
+    width: 256,
+    height: 256,
+    colorKey: 0x00000000,
+    hasData: 0,
+    sprites: {
+        sprite128: { x: 0, y: 0, w: 32, h: 64, id: 128 },
+        sprite129: { x: 32, y: 0, w: 32, h: 64 },
+        sprite130: { x: 64, y: 0, w: 32, h: 64 },
+        sprite131: { x: 96, y: 0, w: 32, h: 64 },
+        sprite132: { x: 128, y: 0, w: 32, h: 64 },
+        sprite133: { x: 160, y: 0, w: 32, h: 64 },
+        sprite134: { x: 192, y: 0, w: 48, h: 64 }
+    }
+}
+
+script 128 script0 {
+offset0:
+    ins_1(sprite128);
++8: // 8
+    ins_1(sprite129);
++8: // 16
+    ins_1(sprite130);
++8: // 24
+    ins_1(sprite131);
++8: // 32
+    ins_5(offset0);
+}
+
+script script1 {
+    ins_7();
+    ins_1(sprite132);
++4: // 4
+    ins_1(sprite133);
++4: // 8
+offset20:
+    ins_1(sprite134);
++10000: // 10008
+    ins_5(offset20);
+}
+
+script script2 {
+    ins_1(sprite132);
++4: // 4
+    ins_1(sprite133);
++4: // 8
+offset16:
+    ins_1(sprite134);
++10000: // 10008
+    ins_5(offset16);
+}
+
+script script3 {
+    ins_7();
+    ins_1(sprite134);
++4: // 4
+    ins_1(sprite133);
++4: // 8
+    ins_1(sprite132);
++-8: // 0
+offset28:
+    ins_1(sprite128);
++8: // 8
+    ins_1(sprite129);
++8: // 16
+    ins_1(sprite130);
++8: // 24
+    ins_1(sprite131);
++8: // 32
+    ins_5(offset28);
+}
+
+script script4 {
+    ins_1(sprite134);
++4: // 4
+    ins_1(sprite133);
++4: // 8
+    ins_1(sprite132);
++-8: // 0
+offset24:
+    ins_1(sprite128);
++8: // 8
+    ins_1(sprite129);
++8: // 16
+    ins_1(sprite130);
++8: // 24
+    ins_1(sprite131);
++8: // 32
+    ins_5(offset24);
+}
+
+script script5 {
+    ins_2(1.0f, 1.0f);
+    ins_30(0.0f, 9.0f, 30);
+    ins_12(32, 30);
+offset40:
+    ins_1(sprite128);
++8: // 8
+    ins_1(sprite129);
++8: // 16
+    ins_1(sprite130);
++8: // 24
+    ins_1(sprite131);
++8: // 32
+    ins_5(offset40);
+}
+
+script script6 {
+    ins_2(0.0f, 9.0f);
+    ins_30(1.0f, 1.0f, 30);
+    ins_3(32);
+    ins_12(255, 30);
+offset48:
+    ins_1(sprite128);
++8: // 8
+    ins_1(sprite129);
++8: // 16
+    ins_1(sprite130);
++8: // 24
+    ins_1(sprite131);
++8: // 32
+    ins_5(offset48);
+}
+
+script script7 {
+    ins_2(1.0f, 1.0f);
+    ins_30(9.0f, 0.0f, 30);
+    ins_7();
+    ins_12(32, 30);
+    ins_1(sprite134);
++10000: // 10000
+    ins_15();
+}
+
+script script8 {
+    ins_2(9.0f, 0.0f);
+    ins_30(1.0f, 1.0f, 30);
+    ins_7();
+    ins_3(32);
+    ins_12(255, 30);
+    ins_1(sprite134);
++10000: // 10000
+    ins_15();
+}
+
+script script9 {
+    ins_2(1.0f, 1.0f);
+    ins_30(9.0f, 0.0f, 30);
+    ins_12(32, 30);
+    ins_1(sprite134);
++10000: // 10000
+    ins_15();
+}
+
+script script10 {
+    ins_2(9.0f, 0.0f);
+    ins_30(1.0f, 1.0f, 30);
+    ins_3(32);
+    ins_12(255, 30);
+    ins_1(sprite134);
++10000: // 10000
+    ins_15();
+}
+
+

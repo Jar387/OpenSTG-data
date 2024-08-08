@@ -1,0 +1,29 @@
+entry entry0 {
+    version: 0,
+    name: "@",
+    format: 3,
+    width: 128,
+    height: 128,
+    colorKey: 0x00000000,
+    hasData: 0,
+    sprites: {
+        sprite0: { x: 0, y: 0, w: 128, h: 128 }
+    }
+}
+
+script script0 {
+    ins_1(sprite0);
+    ins_2(3.0f, 3.5f);
+    ins_23();
+    ins_4(1097952);
+    ins_3(0);
+    ins_12(255, 30);
++30: // 30
+    ins_21();
+    ins_22(1);
+    ins_12(0, 30);
++30: // 60
+    ins_24();
+}
+
+

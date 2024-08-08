@@ -1,0 +1,108 @@
+entry entry0 {
+    version: 0,
+    name: "data/stgenm/stg7enm2.png",
+    name2: "data/stgenm/stg7enm2_a.png",
+    format: 5,
+    width: 256,
+    height: 256,
+    colorKey: 0x00000000,
+    hasData: 0,
+    sprites: {
+        sprite160: { x: 0, y: 0, w: 64, h: 80, id: 160 },
+        sprite161: { x: 64, y: 0, w: 64, h: 80 },
+        sprite162: { x: 128, y: 0, w: 64, h: 80 },
+        sprite163: { x: 192, y: 0, w: 64, h: 80 },
+        sprite164: { x: 0, y: 80, w: 64, h: 80 },
+        sprite165: { x: 64, y: 80, w: 64, h: 80 },
+        sprite166: { x: 128, y: 80, w: 64, h: 80 },
+        sprite167: { x: 192, y: 80, w: 64, h: 80 },
+        sprite168: { x: 0, y: 224, w: 64, h: 32 },
+        sprite169: { x: 64, y: 224, w: 64, h: 32 },
+        sprite170: { x: 128, y: 224, w: 64, h: 32 },
+        sprite171: { x: 192, y: 224, w: 64, h: 32 }
+    }
+}
+
+script 160 script0 {
+offset0:
+    ins_1(sprite160);
++6: // 6
+    ins_1(sprite161);
++6: // 12
+    ins_1(sprite162);
++6: // 18
+    ins_1(sprite163);
++6: // 24
+    ins_5(offset0);
+}
+
+script script1 {
+    ins_7();
+    ins_1(sprite160);
++4: // 4
+    ins_1(sprite164);
++4: // 8
+offset20:
+    ins_1(sprite165);
++10000: // 10008
+    ins_5(offset20);
+}
+
+script script2 {
+    ins_1(sprite160);
++4: // 4
+    ins_1(sprite164);
++4: // 8
+offset16:
+    ins_1(sprite165);
++10000: // 10008
+    ins_5(offset16);
+}
+
+script script3 {
+    ins_7();
+    ins_1(sprite165);
++4: // 4
+    ins_1(sprite164);
++6: // 10
+offset20:
+    ins_1(sprite160);
++6: // 16
+    ins_1(sprite161);
++6: // 22
+    ins_1(sprite162);
++6: // 28
+    ins_1(sprite163);
+    ins_5(offset20);
+}
+
+script script4 {
+    ins_1(sprite165);
++4: // 4
+    ins_1(sprite164);
++6: // 10
+offset16:
+    ins_1(sprite160);
++6: // 16
+    ins_1(sprite161);
++6: // 22
+    ins_1(sprite162);
++6: // 28
+    ins_1(sprite163);
+    ins_5(offset16);
+}
+
+script script5 {
+offset0:
+    ins_1(sprite168);
++4: // 4
+    ins_1(sprite169);
++4: // 8
+    ins_1(sprite170);
++4: // 12
+    ins_1(sprite171);
++4: // 16
+    ins_5(offset0);
+}
+
+

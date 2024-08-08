@@ -1,0 +1,33 @@
+entry entry0 {
+    version: 0,
+    name: "data/image/loading.png",
+    format: 3,
+    width: 256,
+    height: 256,
+    colorKey: 0x00000000,
+    hasData: 0,
+    sprites: {
+        sprite0: { x: 0, y: 0, w: 256, h: 256 }
+    }
+}
+
+script script0 {
+    ins_1(sprite0);
+    ins_23();
+    ins_2(1.5f, 1.75f);
+    ins_17(32.0f, 464.0f, 0.0f);
+    ins_19(32.0f, 16.0f, 0.0f, 60);
+    ins_3(0);
+    ins_12(255, 60);
++60: // 60
+    ins_21();
+    ins_22(1);
+    ins_17(32.0f, 16.0f, 0.0f);
+    ins_19(32.0f, 464.0f, 0.0f, 60);
+    ins_3(255);
+    ins_12(0, 60);
++60: // 120
+    ins_0();
+}
+
+

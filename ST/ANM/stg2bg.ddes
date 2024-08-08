@@ -1,0 +1,38 @@
+entry entry0 {
+    version: 0,
+    name: "data/stg1bg/stg2bg.png",
+    format: 0,
+    width: 256,
+    height: 256,
+    colorKey: 0x00000000,
+    hasData: 0,
+    sprites: {
+        sprite0: { x: 0, y: 0, w: 256, h: 256 },
+        sprite1: { x: 0, y: 0, w: 256, h: 256 }
+    }
+}
+
+script script0 {
+    ins_1(sprite0);
+    ins_23();
+    ins_3(160);
+    ins_27(0.5f);
+offset28:
+    ins_27(0.00083333335f);
++1: // 1
+    ins_5(offset28);
+}
+
+script script1 {
+    ins_1(sprite1);
+    ins_23();
+    ins_3(80);
+    ins_27(0.5f);
+    ins_28(0.5f);
+offset36:
+    ins_27(-0.00083333335f);
++1: // 1
+    ins_5(offset36);
+}
+
+

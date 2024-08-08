@@ -1,0 +1,62 @@
+entry entry0 {
+    version: 0,
+    name: "data/stgenm/stg2enm2.png",
+    name2: "data/stgenm/stg2enm2_a.png",
+    format: 5,
+    width: 256,
+    height: 256,
+    colorKey: 0x00000000,
+    hasData: 0,
+    sprites: {
+        sprite128: { x: 0, y: 0, w: 32, h: 64, id: 128 },
+        sprite129: { x: 32, y: 0, w: 48, h: 64 },
+        sprite130: { x: 80, y: 0, w: 48, h: 64 },
+        sprite131: { x: 128, y: 0, w: 48, h: 64 },
+        sprite132: { x: 176, y: 0, w: 48, h: 64 },
+        sprite133: { x: 0, y: 64, w: 48, h: 64 }
+    }
+}
+
+script 128 script0 {
+    ins_2(1.0f, 1.0f);
+    ins_1(sprite128);
+    ins_15();
+}
+
+script script1 {
+    ins_2(-1.0f, 1.0f);
+    ins_1(sprite129);
+    ins_15();
+}
+
+script script2 {
+    ins_2(1.0f, 1.0f);
+    ins_1(sprite129);
+    ins_15();
+}
+
+script script3 {
+offset0:
+    ins_1(sprite130);
++3: // 3
+    ins_1(sprite131);
++3: // 6
+    ins_1(sprite132);
++3: // 9
+    ins_1(sprite133);
+    ins_5(offset0);
+}
+
+script script4 {
+    ins_1(sprite128);
+    ins_3(32);
+    ins_2(0.0f, 9.0f);
+    ins_13();
+    ins_12(255, 30);
+    ins_30(1.0f, 1.0f, 30);
++30: // 30
+    ins_14();
+    ins_15();
+}
+
+

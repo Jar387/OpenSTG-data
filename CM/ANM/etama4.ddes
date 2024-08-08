@@ -1,0 +1,293 @@
+entry entry0 {
+    version: 0,
+    name: "data/etama/etama4.png",
+    name2: "data/etama/etama4_a.png",
+    format: 5,
+    width: 256,
+    height: 256,
+    colorKey: 0x00000000,
+    hasData: 0,
+    sprites: {
+        sprite0: { x: 0, y: 0, w: 64, h: 64 },
+        sprite1: { x: 64, y: 0, w: 64, h: 64 },
+        sprite2: { x: 128, y: 0, w: 64, h: 64 },
+        sprite3: { x: 192, y: 0, w: 64, h: 64 },
+        sprite4: { x: 65, y: 209, w: 30, h: 30 },
+        sprite5: { x: 97, y: 209, w: 30, h: 30 },
+        sprite6: { x: 129, y: 209, w: 30, h: 30 },
+        sprite7: { x: 1, y: 241, w: 14, h: 14 },
+        sprite8: { x: 17, y: 241, w: 14, h: 14 },
+        sprite9: { x: 33, y: 241, w: 14, h: 14 },
+        sprite10: { x: 49, y: 241, w: 14, h: 14 },
+        sprite11: { x: 65, y: 241, w: 14, h: 14 },
+        sprite12: { x: 81, y: 241, w: 14, h: 14 },
+        sprite13: { x: 97, y: 241, w: 14, h: 14 },
+        sprite14: { x: 113, y: 241, w: 14, h: 14 },
+        sprite15: { x: 129, y: 241, w: 14, h: 14 },
+        sprite16: { x: 145, y: 241, w: 14, h: 14 },
+        sprite17: { x: 161, y: 241, w: 14, h: 14 },
+        sprite18: { x: 177, y: 241, w: 14, h: 14 },
+        sprite19: { x: 193, y: 241, w: 14, h: 14 },
+        sprite20: { x: 209, y: 241, w: 14, h: 14 },
+        sprite21: { x: 225, y: 241, w: 14, h: 14 },
+        sprite22: { x: 241, y: 241, w: 14, h: 14 },
+        sprite23: { x: 1, y: 176, w: 63, h: 63 },
+        sprite24: { x: 161, y: 225, w: 14, h: 14 }
+    }
+}
+
+script script0 {
+    ins_1(sprite0);
+    ins_13();
+    ins_15();
+}
+
+script script1 {
+    ins_1(sprite0);
+    ins_13();
+    ins_12(0, 16);
+    ins_11(-0.0625f, -0.0625f);
++16: // 16
+    ins_0();
+}
+
+script script2 {
+    ins_1(sprite0);
+    ins_13();
+    ins_3(0);
+    ins_12(255, 32);
+    ins_2(2.0f, 2.0f);
+    ins_11(-0.041666668f, -0.041666668f);
++24: // 24
+    ins_0();
+}
+
+script script3 {
+    ins_1(sprite4);
+    ins_13();
+    ins_2(1.0f, 1.0f);
+    ins_11(0.1f, 0.1f);
+    ins_12(0, 20);
+    ins_31(1);
++20: // 20
+    ins_0();
+}
+
+script script4 {
+    ins_1(sprite5);
+    ins_13();
+    ins_12(0, 20);
+    ins_2(1.0f, 1.0f);
+    ins_11(0.1f, 0.1f);
+    ins_10(0.0f, 0.0f, -0.6f);
+    ins_31(1);
++20: // 20
+    ins_0();
+}
+
+script script5 {
+    ins_1(sprite23);
+    ins_31(1);
+    ins_13();
+    ins_2(1.0f, 1.0f);
+    ins_11(0.15f, 0.15f);
++20: // 20
+    ins_12(0, 20);
++20: // 40
+    ins_0();
+}
+
+script script6 {
+    ins_1(sprite6);
+    ins_31(1);
+    ins_13();
+    ins_12(0, 40);
+    ins_2(3.0f, 3.0f);
+    ins_11(-0.075f, -0.075f);
++40: // 40
+    ins_0();
+}
+
+script script7 {
+    ins_1(sprite6);
+    ins_31(1);
+    ins_13();
+    ins_3(0);
+    ins_12(128, 40);
+    ins_2(3.5f, 3.5f);
+    ins_11(-0.05f, -0.05f);
++60: // 60
+    ins_0();
+}
+
+script script8 {
+    ins_1(sprite6);
+    ins_31(1);
+    ins_13();
+    ins_3(0);
+    ins_12(48, 120);
+    ins_2(3.5f, 3.5f);
+    ins_11(-0.0125f, -0.0125f);
++240: // 240
+    ins_0();
+}
+
+script script9 {
+    ins_16(sprite7, 4);
+    ins_31(1);
+    ins_13();
+    ins_3(128);
+    ins_12(0, 30);
+    ins_2(3.0f, 3.0f);
+    ins_11(-0.1f, -0.1f);
+    ins_10(0.0f, 0.0f, 0.6f);
++30: // 30
+    ins_0();
+}
+
+script script10 {
+    ins_16(sprite11, 4);
+    ins_31(1);
+    ins_13();
+    ins_3(128);
+    ins_12(0, 30);
+    ins_2(3.0f, 3.0f);
+    ins_11(-0.1f, -0.1f);
+    ins_10(0.0f, 0.0f, 0.6f);
++30: // 30
+    ins_0();
+}
+
+script script11 {
+    ins_16(sprite15, 4);
+    ins_31(1);
+    ins_13();
+    ins_3(128);
+    ins_12(0, 30);
+    ins_2(3.0f, 3.0f);
+    ins_11(-0.1f, -0.1f);
+    ins_10(0.0f, 0.0f, 0.6f);
++30: // 30
+    ins_0();
+}
+
+script script12 {
+    ins_16(sprite19, 4);
+    ins_31(1);
+    ins_13();
+    ins_3(128);
+    ins_12(0, 30);
+    ins_2(3.0f, 3.0f);
+    ins_11(-0.1f, -0.1f);
+    ins_10(0.0f, 0.0f, 0.6f);
++30: // 30
+    ins_0();
+}
+
+script script13 {
+    ins_16(sprite7, 4);
+    ins_31(1);
+    ins_13();
+    ins_3(128);
+    ins_12(0, 30);
+    ins_2(0.7f, 0.7f);
+    ins_11(-0.023333333f, -0.023333333f);
+    ins_10(0.0f, 0.0f, 0.6f);
++30: // 30
+    ins_0();
+}
+
+script script14 {
+    ins_16(sprite11, 4);
+    ins_31(1);
+    ins_13();
+    ins_3(128);
+    ins_12(0, 30);
+    ins_2(0.7f, 0.7f);
+    ins_11(-0.023333333f, -0.023333333f);
+    ins_10(0.0f, 0.0f, 0.6f);
++30: // 30
+    ins_0();
+}
+
+script script15 {
+    ins_16(sprite15, 4);
+    ins_31(1);
+    ins_13();
+    ins_3(128);
+    ins_12(0, 30);
+    ins_2(0.7f, 0.7f);
+    ins_11(-0.023333333f, -0.023333333f);
+    ins_10(0.0f, 0.0f, 0.6f);
++30: // 30
+    ins_0();
+}
+
+script script16 {
+    ins_16(sprite19, 4);
+    ins_31(1);
+    ins_13();
+    ins_3(128);
+    ins_12(0, 30);
+    ins_2(0.7f, 0.7f);
+    ins_11(-0.023333333f, -0.023333333f);
+    ins_10(0.0f, 0.0f, 0.6f);
++30: // 30
+    ins_0();
+}
+
+script script17 {
+    ins_1(sprite23);
+    ins_31(1);
+    ins_13();
+    ins_12(0, 40);
+    ins_2(0.5f, 0.5f);
+    ins_11(0.3f, 0.3f);
++40: // 40
+    ins_0();
+}
+
+script script18 {
+    ins_1(sprite24);
+    ins_31(1);
+    ins_13();
+    ins_10(0.0f, 0.0f, -0.15f);
++60: // 60
+offset36:
+    ins_3(255);
++60: // 120
+    ins_12(64, 60);
++60: // 180
+    ins_12(255, 60);
++60: // 240
+    ins_5(offset36);
+}
+
+script script19 {
+    ins_16(sprite7, 4);
+    ins_31(1);
+    ins_13();
+    ins_3(48);
+    ins_12(0, 120);
+    ins_2(3.0f, 3.0f);
+    ins_11(-0.025f, -0.025f);
++120: // 120
+    ins_0();
+}
+
+script script20 {
+    ins_1(sprite4);
+    ins_13();
+    ins_2(1.5f, 1.5f);
+    ins_3(0);
+    ins_12(128, 20);
++20: // 20
+    ins_11(-0.004166667f, -0.004166667f);
++120: // 140
+    ins_11(0.004166667f, 0.004166667f);
+    ins_31(1);
++-120: // 20
+    ins_0();
+}
+
+

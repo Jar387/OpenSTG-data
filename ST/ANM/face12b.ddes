@@ -1,0 +1,15 @@
+entry entry0 {
+    version: 0,
+    name: "data/face/face12b.png",
+    name2: "data/face/face12a_a.png",
+    format: 1,
+    width: 256,
+    height: 256,
+    colorKey: 0x00000000,
+    hasData: 0,
+    sprites: {
+        sprite0: { x: 0, y: 0, w: 256, h: 256 }
+    }
+}
+
+
